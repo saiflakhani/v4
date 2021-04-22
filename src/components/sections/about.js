@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Odoo (OpenERP)', 'HTML / CSS', 'Mongoose OS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,20 +141,21 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>I'm Aditi, a software engineer from Pune, India.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Sometimes, I'm stuck in my own little world. My family of three and friends. Other times, I overthink everything.
+              I love creating new things, whether it's food, code or art. I'm a bit of a perfectionist and a multifaceted personality.
+              I received my degree as a Bachelor of Software Engineering, and I joined e-Zest immediately after.
+
             </p>
 
-            <p>
+            {/* <p>
               Shortly after graduating from{' '}
               <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
               engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
               on a wide variety of interesting and meaningful projects on a daily basis.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>

@@ -53,7 +53,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a software engineer, a passionate chef and a voracious reader. I specialize in developing
-      python applications, keeping things orderly and eating at fancy cafes
+      python applications, keeping things orderly and eating at fancy cafés.
     </p>
   );
   const five = (
